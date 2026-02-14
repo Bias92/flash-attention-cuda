@@ -36,6 +36,20 @@ This project implements the tiled FlashAttention algorithm ([Dao et al., 2022](h
 | 2048 | 934.3 |
 | Decode throughput | 24.1 tok/s |
 
+### Evidence
+
+<details>
+<summary>Baseline TTFT measurement (click to expand)</summary>
+
+![Baseline TTFT](baseline_ttft_result.png)
+</details>
+
+<details>
+<summary>Kernel correctness + benchmark (click to expand)</summary>
+
+![Correctness & Benchmark](kernel_correctness_benchmark.png)
+</details>
+
 ## Architecture
 
 ### Kernel Design
